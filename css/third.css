@@ -1,0 +1,74 @@
+#third {
+    height: 750px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(161, 168, 154, 0.40);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#third_div_1, #third_div_2{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#third_div_1{
+    background: url("../images/demekOrce.jpg") center center;
+    background-size: cover;
+}
+
+#third_div_2{
+    background: url("../images/demekFinki.jpg") center center;
+    background-size: cover;
+}
+
+#third_div_1 div, #third_div_2 div{
+    height: 100%;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top: 200px;
+}
+
+#third_div_1 h1, #third_div_1 p{
+    width: 500px;
+    text-align: center;
+}
+
+#third_div_2 h1, #third_div_2 p{
+    width: 500px;
+    text-align: center;
+}
+
+#third_div_1 h1, #third_div_2 h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#third_div_1 p, #third_div_2 p{
+    font-size: 30px;
+}
+
+#third_div_1:hover div{
+    background-color: rgba(161, 168, 154, 0.65);
+    color: #24252A;
+    opacity: 1;
+}
+
+#third_div_2:hover div{
+    background-color: rgba(161, 168, 154, 0.65);
+    color: #24252A;
+    opacity: 1;
+}
+
+
+
+
+

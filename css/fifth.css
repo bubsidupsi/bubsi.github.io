@@ -1,0 +1,57 @@
+#fifth{
+    height: 180px;
+    background-color: #24252A;
+    padding: 50px 250px 50px 250px;
+
+}
+
+.icons{
+    color: white;
+    margin: 0;
+}
+
+#one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 10px;
+}
+
+ion-icon{
+    transition: 0.3s;
+}
+
+#one ion-icon:hover{
+    color: #1d9cc9;
+    cursor: pointer;
+}
+
+#two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#two p{
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#two_a{
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+#two_a:hover{
+    color: #1d9cc9;
+    cursor: pointer;
+}

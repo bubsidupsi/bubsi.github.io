@@ -1,0 +1,81 @@
+::-webkit-scrollbar{
+    width: 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #c7c7c7;
+    border-radius: 100px;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(180deg, #265972E5 0%, #1d9cc9 99%);
+    border-radius: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(38, 89, 114, 0.9);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    vertical-align: middle;
+    margin: 0;
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    background-color: rgba(36, 37, 42, 0.82);
+    z-index: 10;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+}
+
+li{
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    color: white;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #1d9cc9;
+}
